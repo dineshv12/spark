@@ -1,3 +1,10 @@
+hadoop fs -ls
+hadoop fs -put
+hadoop fs -cat
+
+
+
+=====================
 git basics video link
 
 https://www.youtube.com/watch?v=J_Clau1bYco
