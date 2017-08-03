@@ -1,3 +1,51 @@
+config the git using these commands
+
+git config --global user.name "name"
+git config --global user.email "email"
+=========
+the clone the repository to our directory
+
+git clone https://github.com/username/spark.git
+=================
+
+to add a file to repository 
+
+git add filename
+
+we can check using git status command
+
+we can commit using 
+git commit -m "comment" filename
+
+
+the push to the repository
+
+git push -u origin master
+
+==========================================
+
+if we update a file and we push to the repository the we 
+check the difference from the old file is using diff command
+
+git log
+
+the we will get the commit ids
+
+then use
+git diff abced..efdfh
+
+we can even use 
+git diff HEAD~1..HEAD
+
+
+
+====================
+-u add only files which are updated 
+-A add all files including untracking files
+
+
+
+===========
 hadoop fs -ls
 hadoop fs -put
 hadoop fs -cat
