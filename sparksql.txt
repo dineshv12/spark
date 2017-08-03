@@ -1,0 +1,27 @@
+git basics video link
+
+https://www.youtube.com/watch?v=J_Clau1bYco
+
+
+
+==========
+creating a dataframe
+
+================
+
+val training = sqlContext.createDataFrame(Seq(
+     | (0L, "a b c d e spark", 1.0),
+     | (1L, "b d", 0.0),
+     | (2L, "spark f g h", 1.0),
+     | (3L, "hadoop mapreduce", 0.0)
+     | )).toDF("id", "text", "label")
+
+=======================
+
+to read data from json file
+
+
+val df = sqlContext.read.json("/user/spark/people.json")
+
+
+======================
