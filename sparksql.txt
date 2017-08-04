@@ -16,6 +16,23 @@ we can check using git status command
 
 we can commit using 
 git commit -m "comment" filename
+for running a cronjob 
+
+list the cron job command
+corntab -l
+
+to edit the cron job 
+crontab -e
+
+time -> file to execute -> output the executed file
+
+* * * * * /home/dinesh/a.sh >> /home/dinesh/output.txt
+
+save it.
+
+=================================
+
+
 
 
 the push to the repository
