@@ -1,3 +1,15 @@
+git branch branchname
+
+to use branch
+
+git checkout branchname
+
+
+
+
+
+
+==================
 config the git using these commands
 
 git config --global user.name "name"
