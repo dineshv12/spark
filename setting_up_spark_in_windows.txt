@@ -35,3 +35,8 @@ got c:\spark
 then enter into spark shell with this command
 spark-shell
 =================================
+run this spample code
+
+
+val rdd = sc.textFile("README.md")
+rdd.count()
