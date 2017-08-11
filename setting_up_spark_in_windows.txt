@@ -1,0 +1,37 @@
+firstly download java,spark and winutils
+
+create a folder as c:\spark
+and extract spark in it.
+
+edit log4j.properties.template filename to log4j.properties
+and open the file with an editor and replace WARN with ERROR 
+only at the top
+
+create a folder as c:\winutils\bin
+and copy winutils.exe file into it.
+
+Now we have to set up env variables.
+
+New->
+SPARK_HOME
+c:\spark
+
+New->
+JAVA_HOME
+c:\Program File\Java\jdf-version
+
+New->
+HADOOP_HOME
+c:\winutils
+
+now edit the path
+New->
+%SPARK_HOME%\bin
+%JAVA_HOME%\bin
+
+
+now open the cmd using run as administrator
+got c:\spark
+then enter into spark shell with this command
+spark-shell
+=================================
